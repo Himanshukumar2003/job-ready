@@ -7316,7 +7316,30 @@ const courses = [
     },
     "aim": "The aim of this course is to raise awareness of oral health issues, equip participants with the knowledge and skills to maintain good oral hygiene practices, and promote lifelong oral health.",
     "assessment": "This course will include an assessment to evaluate participants’ understanding of the course material. The assessment format may vary and could include:\n\n- A written test\n- Quizzes\n- Short answer questions",
-    "certification": "Upon successful completion of the course and passing the assessment, participants will receive an Oral Health Awareness Certificate."
+    "certification": "Upon successful completion of the course and passing the assessment, participants will receive an Oral Health Awareness Certificate.",
+    "courseDetails": [
+      {
+        "icon": <GiDuration></GiDuration>,
+        "title": "DURATION",
+        "description": "Dependent on the delivery method, this online Oral Health training course takes between 1-2 hours to complete and gain your certificate."
+      },
+      {
+        "icon": <GiEntryDoor></GiEntryDoor>,
+        "title": "ENTRY & LEVEL",
+        "description": "There are no barriers to entry on this Oral Health Awareness training course. This is an awareness course, suitable for all."
+      },
+      {
+        "icon": <GrCertificate></GrCertificate>,
+        "title": "CERTIFICATION",
+        "description": "On completion of this online course, either download your Oral Health certificate or access it later online."
+      },
+      {
+        "icon": <SiTicktick />,
+        "title": "ACCREDITATIONS",
+        "description": "Our online Oral Health Care training courses are CPD accredited and delivered by a Skills for Care endorsed provider. It meets accepted Continuing Professional Development (CPD) guidelines."
+      }
+    ]
+
   },
   {
     "id": "88",
@@ -7381,7 +7404,30 @@ const courses = [
     },
     "aim": "The aim of this course is to equip participants with the knowledge and confidence to provide immediate and effective first aid to infants and children in emergency situations.",
     "assessment": "This course will include a comprehensive assessment to evaluate participants’ understanding of the course material and practical skills. The assessment format may vary and could include:\n\n- Written examinations\n- Practical skills demonstrations\n- Scenario-based exercises",
-    "certification": "Upon successful completion of the course and passing all assessments, participants will receive a Paediatric First Aid Certificate."
+    "certification": "Upon successful completion of the course and passing all assessments, participants will receive a Paediatric First Aid Certificate.",
+    "courseDetails": [
+      {
+        "icon": <GiDuration></GiDuration>,
+        "title": "DURATION",
+        "description": "This Paediatric First Aid course takes 2 days (12 hours) to complete and gain your certificate."
+      },
+      {
+        "icon": <GiEntryDoor></GiEntryDoor>,
+        "title": "ENTRY & LEVEL",
+        "description": "There are no barriers to entry on this online Paediatric First Aid training course. This is an awareness course, suitable for all."
+      },
+      {
+        "icon": <GrCertificate></GrCertificate>,
+        "title": "CERTIFICATION",
+        "description": "On completion of this Paediatric First Aid online training, either download your certificate or access it at a later date online."
+      },
+      {
+        "icon": <SiTicktick />,
+        "title": "ACCREDITATIONS",
+        "description": "This blended Paediatric First Aid course is CPD accredited and delivered by a Skills for Care endorsed provider. It meets accepted Continuing Professional Development (CPD) guidelines."
+      }
+    ]
+
   },
   {
     "id": "89",
