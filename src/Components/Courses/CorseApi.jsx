@@ -816,6 +816,8 @@ const courses = [
   {
     "id": "9",
     "title": "Bereavement Awareness Course",
+    "sulg": "bereavement-awareness-course",
+
     "category": "Generic",
     "price": "£49.99",
     "img": corseNine,  // Replace with the correct image
@@ -883,6 +885,8 @@ const courses = [
   {
     "id": "10",
     "title": "Borderline Personality Disorder Course",
+    "sulg": "borderline-personality-disorder-course",
+
     "category": "Care",
     "price": "£49.99",
     "img": corseTen,  // Replace with the correct image
@@ -968,6 +972,8 @@ const courses = [
   {
     "id": "11",
     "title": "Bribery Act Awareness Course",
+    "title": "bribery-act-awareness-course",
+
     "category": "Generic",
     "price": "£49.99",
     "img": corseEleven,  // Replace with the correct image
@@ -1067,6 +1073,7 @@ const courses = [
   {
     "id": "12",
     "title": "Bullying and Harassment Awareness Course",
+    "sulg": "bullying-and-harassment-awareness-course",
     "category": "Generic",
     "price": "£49.99",
     "img": corseTwelve,  // Replace with the correct image
@@ -1163,6 +1170,7 @@ const courses = [
   {
     "id": "13",
     "title": "Care Certificate Course",
+    "sulg": "Care-certificate-course",
     "category": "Care",
     "price": "£49.99",
     "img": corseThirteen,  // Replace with the correct image
@@ -1238,6 +1246,7 @@ const courses = [
   {
     "id": "14",
     "title": "Care Planning Awareness – Wales Course",
+    "slug": "care-planning-awareness–wales-course",
     "category": "Care",
     "price": "£49.99",
     "img": corseFourteen,  // Replace with the correct image
@@ -7572,7 +7581,30 @@ const courses = [
     },
     "aim": "The aim of this course is to enhance participants’ understanding of Parkinson’s Disease and equip them with the knowledge and skills to provide effective care and support for individuals living with this condition.",
     "assessment": "This course may include an assessment to evaluate participants’ understanding of the course material. The assessment format may vary and could include a written test, case studies, or a combination of both.",
-    "certification": "Upon successful completion of the course and passing the assessment, participants may receive a Parkinson’s Disease Awareness Certificate."
+    "certification": "Upon successful completion of the course and passing the assessment, participants may receive a Parkinson’s Disease Awareness Certificate.",
+    "courseDetails": [
+      {
+        "icon": <GiDuration></GiDuration>,
+        "title": "DURATION",
+        "description": "Dependent on the delivery method, this online Parkinson's Disease training course takes between 1-2 hours to complete and gain your certificate."
+      },
+      {
+        "icon": <GiEntryDoor></GiEntryDoor>,
+        "title": "ENTRY & LEVEL",
+        "description": "There are no barriers to entry on this Parkinson's Awareness training course. This is an awareness course, suitable for all."
+      },
+      {
+        "icon": <GrCertificate></GrCertificate>,
+        "title": "CERTIFICATION",
+        "description": "On completion of this online course, either download your Parkinson's Disease Awareness certificate or access it later online."
+      },
+      {
+        "icon": <SiTicktick />,
+        "title": "ACCREDITATIONS",
+        "description": "Our online Parkinson's Disease awareness training course is CPD accredited, meeting accepted Continuing Professional Development guidelines."
+      }
+    ]
+
   },
   {
     "id": "91",
@@ -7644,7 +7676,30 @@ const courses = [
     },
     "aim": "The aim of this course is to equip participants with the knowledge and skills to understand and apply best practices when using passports as proof of identity. It aims to promote responsible and ethical use of passport information while ensuring compliance with relevant legal and regulatory requirements.",
     "assessment": "This course will include an assessment to evaluate participants’ understanding of the course material. The assessment format may vary and could include a written test, case studies, or scenario-based exercises.",
-    "certification": "Upon successful completion of the course and passing the assessment, participants will receive a Passport as Proof Course Certificate."
+    "certification": "Upon successful completion of the course and passing the assessment, participants will receive a Passport as Proof Course Certificate.",
+    "courseDetails": [
+      {
+        "icon": <GiDuration></GiDuration>,
+        "title": "DURATION",
+        "description": "Dependent on delivery method, this course takes between 1-2 hours to complete and gain your certificate."
+      },
+      {
+        "icon": <GiEntryDoor></GiEntryDoor>,
+        "title": "ENTRY & LEVEL",
+        "description": "There are no barriers to entry on this course. This is an awareness course, suitable for all."
+      },
+      {
+        "icon": <GrCertificate></GrCertificate>,
+        "title": "CERTIFICATION",
+        "description": "On completion of this course, either download your certificate or access it at a later date online."
+      },
+      {
+        "icon": <SiTicktick />,
+        "title": "ACCREDITATIONS",
+        "description": "This course is CPD accredited. It meets accepted Continuing Professional Development (CPD) guidelines."
+      }
+    ]
+
   },
   {
     "id": "92",
@@ -7713,7 +7768,30 @@ const courses = [
     },
     "aim": "The aim of this course is to equip participants with the knowledge and skills to provide person-centred care that meets the unique needs and preferences of individuals. It aims to promote a culture of respect, dignity, and empowerment in healthcare and social care settings.",
     "assessment": "This course will include an assessment to evaluate participants’ understanding of the course material. The assessment format may vary and could include a written test, case studies, or group discussions.",
-    "certification": "Upon successful completion of the course and passing the assessment, participants will receive a Person-Centred Care Certificate."
+    "certification": "Upon successful completion of the course and passing the assessment, participants will receive a Person-Centred Care Certificate.",
+    "courseDetails": [
+      {
+        "icon": <GiDuration></GiDuration>,
+        "title": "DURATION",
+        "description": "Dependent on the delivery method, this Person-Centred Care Planning training takes between 1-2 hours to complete and gain your certificate."
+      },
+      {
+        "icon": <GiEntryDoor></GiEntryDoor>,
+        "title": "ENTRY & LEVEL",
+        "description": "There are no barriers to entry on this Person-Centred Care course. This is an awareness course, suitable for all."
+      },
+      {
+        "icon": <GrCertificate></GrCertificate>,
+        "title": "CERTIFICATION",
+        "description": "On completion of this online course, either download your Person-Centred Care certificate or access it later online."
+      },
+      {
+        "icon": <SiTicktick />,
+        "title": "ACCREDITATIONS",
+        "description": "This online Person-Centred Care training course is CPD accredited and delivered by a Skills for Care provider. It meets accepted Continuing Professional Development (CPD) guidelines."
+      }
+    ]
+
   },
   {
     "id": "93",
@@ -7956,7 +8034,30 @@ const courses = [
     },
     "aim": "The aim of this course is to enhance participants’ understanding of Prader-Willi Syndrome and equip them with the knowledge and skills to provide appropriate support and care for individuals with this condition.",
     "assessment": "This course may include an assessment to evaluate participants’ understanding of the course material. The assessment format may vary and could include a written test, case studies, or a combination of both.",
-    "certification": "Upon successful completion of the course and passing the assessment, participants may receive a Prader-Willi Syndrome Awareness Certificate."
+    "certification": "Upon successful completion of the course and passing the assessment, participants may receive a Prader-Willi Syndrome Awareness Certificate.",
+    "courseDetails": [
+      {
+        "icon": <GiDuration></GiDuration>,
+        "title": "DURATION",
+        "description": "Dependent on the delivery method, this Prader-Willi Syndrome training course takes between 1-2 hours to complete and gain your certificate."
+      },
+      {
+        "icon": <GiEntryDoor></GiEntryDoor>,
+        "title": "ENTRY & LEVEL",
+        "description": "There are no barriers to entry on this Prader-Willi Syndrome Awareness course online. This is an awareness course, suitable for all."
+      },
+      {
+        "icon": <GrCertificate></GrCertificate>,
+        "title": "CERTIFICATION",
+        "description": "On completion of this Prader-Willi Syndrome Awareness training course, either download your certificate or access it at a later date online."
+      },
+      {
+        "icon": <SiTicktick />,
+        "title": "ACCREDITATIONS",
+        "description": "This Prader-Willi Syndrome Awareness online training course is CPD accredited and delivered by a Skills for Care endorsed provider. It meets accepted Continuing Professional Development (CPD) guidelines."
+      }
+    ]
+
   },
   {
     "id": "96",
@@ -8023,7 +8124,30 @@ const courses = [
     },
     "aim": "The aim of this course is to equip participants with the knowledge and skills to prevent and manage pressure ulcers effectively, thereby improving the quality of life and well-being of individuals in their care.",
     "assessment": "This course will include an assessment to evaluate participants’ understanding of the course material. The assessment format may vary and could include a written test, practical exercises, or a combination of both.",
-    "certification": "Upon successful completion of the course and passing the assessment, participants will receive a Pressure Sore Awareness Certificate."
+    "certification": "Upon successful completion of the course and passing the assessment, participants will receive a Pressure Sore Awareness Certificate.",
+    "courseDetails": [
+      {
+        "icon": <GiDuration></GiDuration>,
+        "title": "DURATION",
+        "description": "Dependent on the delivery method, these Pressure Sore courses take between 1-2 hours to complete and gain your certificate."
+      },
+      {
+        "icon": <GiEntryDoor></GiEntryDoor>,
+        "title": "ENTRY & LEVEL",
+        "description": "There are no barriers to entry on this online Pressure Sore training course. This is an awareness course, suitable for all."
+      },
+      {
+        "icon": <GrCertificate></GrCertificate>,
+        "title": "CERTIFICATION",
+        "description": "On completion of this Pressure Sores Training for carers, either download your certificate or access it later online."
+      },
+      {
+        "icon": <SiTicktick />,
+        "title": "ACCREDITATIONS",
+        "description": "This online Pressure Sore Awareness Training Course is CPD accredited and is delivered by a Skills For Care Endorsed Provider. It meets accepted Continuing Professional Development (CPD) guidelines."
+      }
+    ]
+
   },
   {
     "id": "97",
@@ -8089,7 +8213,30 @@ const courses = [
     },
     "aim": "The aim of this course is to raise awareness of radicalisation, equip participants with the knowledge and skills to recognise potential indicators of radicalisation, and promote a safe and supportive environment for all individuals.",
     "assessment": "This course will include an assessment to evaluate participants’ understanding of the course material. The assessment format may vary and could include a written test, case studies, or scenario-based exercises.",
-    "certification": "Upon successful completion of the course and passing the assessment, participants will receive a Preventing Radicalisation Awareness Certificate."
+    "certification": "Upon successful completion of the course and passing the assessment, participants will receive a Preventing Radicalisation Awareness Certificate.",
+    "courseDetails": [
+      {
+        "icon": <GiDuration></GiDuration>,
+        "title": "DURATION",
+        "description": "Dependent on the delivery method, this online Prevent Radicalisation training course takes between 1-2 hours to complete and gain your certificate."
+      },
+      {
+        "icon": <GiEntryDoor></GiEntryDoor>,
+        "title": "ENTRY & LEVEL",
+        "description": "There are no barriers to entry on this online Preventing Extremism and Radicalisation training. This is an awareness course, suitable for all."
+      },
+      {
+        "icon": <GrCertificate></GrCertificate>,
+        "title": "CERTIFICATION",
+        "description": "On completion of this online course, either download your Preventing Radicalisation certificate or access it later online."
+      },
+      {
+        "icon": <SiTicktick />,
+        "title": "ACCREDITATIONS",
+        "description": "This online Preventing Radicalisation training course is CPD accredited and delivered by a Skills for Care endorsed provider. It meets accepted Continuing Professional Development (CPD) guidelines."
+      }
+    ]
+
   },
   {
     "id": "98",
@@ -8157,7 +8304,30 @@ const courses = [
     },
     "aim": "The aim of this course is to equip participants with the knowledge and skills to understand and maintain professional boundaries, ensuring ethical and professional conduct in all interactions with clients, colleagues, and the public.",
     "assessment": "This course will include an assessment to evaluate participants’ understanding of the course material. The assessment format may vary and could include a written test, case studies, or scenario-based exercises.",
-    "certification": "Upon successful completion of the course and passing the assessment, participants will receive a Professional Boundaries Certificate."
+    "certification": "Upon successful completion of the course and passing the assessment, participants will receive a Professional Boundaries Certificate.",
+    "courseDetails": [
+      {
+        "icon": <GiDuration></GiDuration>,
+        "title": "DURATION",
+        "description": "Depending on the delivery method, it takes between 1-2 hours to complete this Professional Boundaries course and gain your certificate."
+      },
+      {
+        "icon": <GiEntryDoor></GiEntryDoor>,
+        "title": "ENTRY & LEVEL",
+        "description": "There are no barriers to entry on this Professional Boundaries online training course. This is an awareness course, suitable for all."
+      },
+      {
+        "icon": <GrCertificate></GrCertificate>,
+        "title": "CERTIFICATION",
+        "description": "On completion of this Professional Boundaries training course, either download your certificate or access it later online."
+      },
+      {
+        "icon": <SiTicktick />,
+        "title": "ACCREDITATIONS",
+        "description": "This Professional Boundaries course is CPD accredited. It meets accepted Continuing Professional Development (CPD) guidelines."
+      }
+    ]
+
   },
   {
     "id": "99",
@@ -8224,7 +8394,30 @@ const courses = [
     },
     "aim": "The aim of this course is to raise awareness of RIDDOR requirements, equip employees with the knowledge and skills to recognize reportable incidents, and ensure that incidents are reported accurately and promptly.",
     "assessment": "This course will include an assessment to evaluate participants’ understanding of the course material. The assessment format may vary and could include a written test, case studies, or scenario-based exercises.",
-    "certification": "Upon successful completion of the course and passing the assessment, participants will receive a RIDDOR Awareness Certificate."
+    "certification": "Upon successful completion of the course and passing the assessment, participants will receive a RIDDOR Awareness Certificate.",
+    "courseDetails": [
+      {
+        "icon": <GiDuration></GiDuration>,
+        "title": "DURATION",
+        "description": "Dependent on the delivery method, this RIDDOR online training course takes between 1-2 hours to complete and gain your certificate."
+      },
+      {
+        "icon": <GiEntryDoor></GiEntryDoor>,
+        "title": "ENTRY & LEVEL",
+        "description": "There are no barriers to entry on this online RIDDOR course. This is an awareness course, suitable for all."
+      },
+      {
+        "icon": <GrCertificate></GrCertificate>,
+        "title": "CERTIFICATION",
+        "description": "On completion of this online course, either download your RIDDOR Awareness certificate or access it later online."
+      },
+      {
+        "icon": <SiTicktick />,
+        "title": "ACCREDITATIONS",
+        "description": "Our online RIDDOR courses are CPD accredited. They meet accepted Continuing Professional Development (CPD) guidelines."
+      }
+    ]
+
   },
   {
     "id": "100",
@@ -8300,7 +8493,30 @@ const courses = [
     },
     "aim": "The aim of this course is to raise awareness of risk assessment principles, equip participants with the knowledge and skills to identify, evaluate, and control risks in the workplace, and promote a safe and healthy working environment.",
     "assessment": "This course will include an assessment to evaluate participants’ understanding of the course material. The assessment format may vary and could include a written test, case studies, or scenario-based exercises.",
-    "certification": "Upon successful completion of the course and passing the assessment, participants will receive a Risk Assessment Awareness Certificate."
+    "certification": "Upon successful completion of the course and passing the assessment, participants will receive a Risk Assessment Awareness Certificate.",
+    "courseDetails": [
+      {
+        "icon": <GiDuration></GiDuration>,
+        "title": "DURATION",
+        "description": "Dependent on the delivery method, this online Risk Assessment training course takes between 1-2 hours to complete and gain your certificate."
+      },
+      {
+        "icon": <GiEntryDoor></GiEntryDoor>,
+        "title": "ENTRY & LEVEL",
+        "description": "There are no barriers to entry on this Risk Assessment course. This is an awareness course, suitable for all."
+      },
+      {
+        "icon": <GrCertificate></GrCertificate>,
+        "title": "CERTIFICATION",
+        "description": "On completion of this online course, either download your Risk Assessment Awareness certificate or access it later online."
+      },
+      {
+        "icon": <SiTicktick />,
+        "title": "ACCREDITATIONS",
+        "description": "This online Risk Assessment course is CPD accredited. It meets accepted Continuing Professional Development (CPD) guidelines."
+      }
+    ]
+
   },
 
   {
@@ -8370,7 +8586,30 @@ const courses = [
     },
     "certificateAllocation": {
       "heading": "Certificate Allocation",
-      "content": "Upon successful completion of the course and passing the assessment, participants will receive a Safeguarding in Adults and Children Level 1 – Wales Certificate."
+      "content": "Upon successful completion of the course and passing the assessment, participants will receive a Safeguarding in Adults and Children Level 1 – Wales Certificate.",
+      "courseDetails": [
+        {
+          "icon": <GiDuration></GiDuration>,
+          "title": "DURATION",
+          "description": "Dependent on the delivery method, this Level 1 Safeguarding Vulnerable Adults online training course takes between 1-2 hours to complete and gain your certificate."
+        },
+        {
+          "icon": <GiEntryDoor></GiEntryDoor>,
+          "title": "ENTRY & LEVEL",
+          "description": "There are no barriers to entry on this Safeguarding Adults Level 1 course. This is an awareness course, suitable for all."
+        },
+        {
+          "icon": <GrCertificate></GrCertificate>,
+          "title": "CERTIFICATION",
+          "description": "On completion of this online Safeguarding Training Adults Level 1 course, either download your certificate or access it at a later date online."
+        },
+        {
+          "icon": <SiTicktick />,
+          "title": "ACCREDITATIONS",
+          "description": "This Level 1 Safeguarding Vulnerable Adults online training is CPD accredited and Skills for Care endorsed. It also meets Wales Legislation requirements."
+        }
+      ]
+
     }
   },
 
@@ -8446,7 +8685,30 @@ const courses = [
     },
     "aim": "The aim of this course is to equip senior professionals with the advanced knowledge and skills to lead and manage safeguarding effectively within adult social care settings. It focuses on developing strong leadership in safeguarding, ensuring the highest standards of care and support for vulnerable adults, and ensuring full compliance with the CCSF.",
     "assessment": "This course will include a comprehensive assessment to evaluate participants’ understanding of the course material and their ability to apply safeguarding principles in complex scenarios within the context of the CCSF. The assessment format may vary and could include:\n\nWritten examinations\nCase studies\nPractical exercises\nPresentations\nScenario-based simulations",
-    "certification": "Upon successful completion of the course and passing all assessments, participants will receive a Safeguarding of Adults Level 2 – CSTF Aligned Certificate."
+    "certification": "Upon successful completion of the course and passing all assessments, participants will receive a Safeguarding of Adults Level 2 – CSTF Aligned Certificate.",
+    "courseDetails": [
+      {
+        "icon": <GiDuration></GiDuration>,
+        "title": "DURATION",
+        "description": "Dependent on the delivery method, this online Children Safeguarding Level 2 course takes between 1-2 hours to complete and gain your certificate."
+      },
+      {
+        "icon": <GiEntryDoor></GiEntryDoor>,
+        "title": "ENTRY & LEVEL",
+        "description": "There are no barriers to entry on this online Safeguarding Children and Young People Level 2 training. This is an awareness course, suitable for all."
+      },
+      {
+        "icon": <GrCertificate></GrCertificate>,
+        "title": "CERTIFICATION",
+        "description": "On completion of this Safeguarding Children Level 2 online course, either download your certificate or access it later online."
+      },
+      {
+        "icon": <SiTicktick />,
+        "title": "ACCREDITATIONS",
+        "description": "This online Safeguarding Young People and Children Level 2 course is CPD accredited. It also meets Wales Legislation requirements."
+      }
+    ]
+
   },
   {
     "id": "103",
@@ -8520,7 +8782,7 @@ const courses = [
     },
     "aim": "The aim of this course is to equip all staff with the foundational knowledge and skills to recognize and respond appropriately to concerns about abuse and neglect in vulnerable adults. It aims to embed a strong safeguarding culture within the organization and ensure the safety and well-being of all individuals receiving care.",
     "assessment": "This course will include an assessment to evaluate participants’ understanding of the course material. The assessment format may vary and could include a written test, short answer questions, or a combination of methods.",
-    "certification": "Upon successful completion of the course and passing the assessment, participants will receive a Safeguarding of Adults Level 1 – CSTF Aligned Certificate."
+    "certification": "Upon successful completion of the course and passing the assessment, participants will receive a Safeguarding of Adults Level 1 – CSTF Aligned Certificate.",
   },
   {
     "id": "104",
@@ -8594,7 +8856,30 @@ const courses = [
     },
     "aim": "The aim of this course is to equip senior professionals with the advanced knowledge and skills to lead and manage safeguarding effectively within adult social care settings, ensuring compliance with CCSF standards and promoting the highest standards of care and support for vulnerable adults.",
     "assessment": "This course will include a comprehensive assessment to evaluate participants’ understanding of the course material and their ability to apply safeguarding principles in complex scenarios within the context of the CCSF. The assessment format may vary and could include written examinations, case studies, practical exercises, presentations, and scenario-based simulations.",
-    "certification": "Upon successful completion of the course and passing all assessments, participants will receive a Safeguarding of Adults Level 2 – CSTF Aligned Certificate."
+    "certification": "Upon successful completion of the course and passing all assessments, participants will receive a Safeguarding of Adults Level 2 – CSTF Aligned Certificate.",
+    "courseDetails": [
+      {
+        "icon": <GiDuration></GiDuration>,
+        "title": "DURATION",
+        "description": "Dependent on the delivery method, this online Children Safeguarding Level 2 course takes between 1-2 hours to complete and gain your certificate."
+      },
+      {
+        "icon": <GiEntryDoor></GiEntryDoor>,
+        "title": "ENTRY & LEVEL",
+        "description": "There are no barriers to entry on this online Safeguarding Children and Young People Level 2 training. This is an awareness course, suitable for all."
+      },
+      {
+        "icon": <GrCertificate></GrCertificate>,
+        "title": "CERTIFICATION",
+        "description": "On completion of this Safeguarding Children Level 2 online course, either download your certificate or access it later online."
+      },
+      {
+        "icon": <SiTicktick />,
+        "title": "ACCREDITATIONS",
+        "description": "This online Safeguarding Young People and Children Level 2 course is CPD accredited. It also meets Wales Legislation requirements."
+      }
+    ]
+
   },
   {
     "id": "105",
@@ -8667,7 +8952,30 @@ const courses = [
     },
     "aim": "The aim of this course is to equip senior professionals with the advanced knowledge and skills to lead and manage safeguarding effectively at a strategic level. It focuses on developing strong leadership in safeguarding, ensuring the highest standards of care and support for vulnerable adults, and driving system-wide improvements in safeguarding practice, all within the context of the CCSF.",
     "assessment": "This course will include a comprehensive assessment to evaluate participants’ understanding of the course material and their ability to apply advanced safeguarding principles in complex strategic scenarios. The assessment format may vary and could include written examinations, case studies, practical exercises, presentations, and research projects.",
-    "certification": "Upon successful completion of the course and passing all assessments, participants will receive a Safeguarding Adults Level 3 – CSTF Aligned Certificate."
+    "certification": "Upon successful completion of the course and passing all assessments, participants will receive a Safeguarding Adults Level 3 – CSTF Aligned Certificate.",
+    "courseDetails": [
+      {
+        "icon": <GiDuration></GiDuration>,
+        "title": "DURATION",
+        "description": "Dependent on delivery method, this Safeguarding of Adults Level 3 training course takes between 1-2 hours to complete and gain your certificate."
+      },
+      {
+        "icon": <GiEntryDoor></GiEntryDoor>,
+        "title": "ENTRY & LEVEL",
+        "description": "There are no barriers to entry on this Adult Safeguarding level 3 training course. This is an awareness course, suitable for all."
+      },
+      {
+        "icon": <GrCertificate></GrCertificate>,
+        "title": "CERTIFICATION",
+        "description": "On completion of this Level 3 Safeguarding Adults Training Course, either download your certificate or access it later online."
+      },
+      {
+        "icon": <SiTicktick />,
+        "title": "ACCREDITATIONS",
+        "description": "This Safeguarding Vulnerable Adults Training Level 3 course is CPD accredited. It meets accepted Continuing Professional Development (CPD) guidelines."
+      }
+    ]
+
   },
   {
     "id": "106",
@@ -8815,7 +9123,30 @@ const courses = [
     },
     "aim": "The aim of this course is to raise awareness of child abuse and neglect, equip participants with the knowledge and skills to recognize and respond appropriately to concerns, and promote the well-being and safety of children.",
     "assessment": "This course will include an assessment to evaluate participants’ understanding of the course material. The assessment format may vary and could include a written test, practical exercises, or a combination of both.",
-    "certification": "Upon successful completion of the course and passing the assessment, participants will receive a Safeguarding of Children Awareness Certificate."
+    "certification": "Upon successful completion of the course and passing the assessment, participants will receive a Safeguarding of Children Awareness Certificate.",
+    "courseDetails": [
+      {
+        "icon": <GiDuration></GiDuration>,
+        "title": "DURATION",
+        "description": "Dependent on delivery method, this course takes between 1-2 hours to complete and gain your certificate."
+      },
+      {
+        "icon": <GiEntryDoor></GiEntryDoor>,
+        "title": "ENTRY & LEVEL",
+        "description": "There are no barriers to entry on this course. This is an awareness course, suitable for all."
+      },
+      {
+        "icon": <GrCertificate></GrCertificate>,
+        "title": "CERTIFICATION",
+        "description": "Upon completion of this course, you can either download your certificate or access it at a later date online."
+      },
+      {
+        "icon": <SiTicktick />,
+        "title": "ACCREDITATIONS",
+        "description": "This course is CPD accredited. It has been designed to meet accepted Continuing Professional Development (CPD) guidelines."
+      }
+    ]
+
   },
   {
     "id": "108",
@@ -9256,7 +9587,30 @@ const courses = [
     },
     "aim": "The aim of this course is to raise awareness of abuse and neglect of vulnerable adults, equip participants with the knowledge and skills to recognize and respond appropriately to concerns, and promote the well-being and safety of vulnerable adults.",
     "assessment": "This course will include an assessment to evaluate participants’ understanding of the course material. The assessment format may vary and could include a written test, practical exercises, or a combination of both.",
-    "certification": "Upon successful completion of the course and passing the assessment, participants will receive a Safeguarding of Vulnerable Adults Awareness Certificate."
+    "certification": "Upon successful completion of the course and passing the assessment, participants will receive a Safeguarding of Vulnerable Adults Awareness Certificate.",
+    "courseDetails": [
+      {
+        "icon": <GiDuration></GiDuration>,
+        "title": "DURATION",
+        "description": "Dependent on the delivery method, this Safeguarding Vulnerable Adults online training course takes between 1-2 hours to complete and gain your certificate."
+      },
+      {
+        "icon": <GiEntryDoor></GiEntryDoor>,
+        "title": "ENTRY & LEVEL",
+        "description": "There are no barriers to entry on this Safeguarding Adults Awareness course. This is an awareness course, suitable for all."
+      },
+      {
+        "icon": <GrCertificate></GrCertificate>,
+        "title": "CERTIFICATION",
+        "description": "On completion of this online Safeguarding Training Adults course, either download your certificate or access it at a later date online."
+      },
+      {
+        "icon": <SiTicktick />,
+        "title": "ACCREDITATIONS",
+        "description": "This Safeguarding Vulnerable Adults online training is CPD accredited and Skills for Care endorsed. It meets accepted Continuing Professional Development (CPD) guidelines."
+      }
+    ]
+
   },
   {
     "id": "114",
@@ -9321,7 +9675,32 @@ const courses = [
     },
     "aim": "The aim of this course is to raise awareness of speech, language, and communication difficulties, understand the role of SLTs, and equip participants with the knowledge and skills to support individuals with communication challenges effectively.",
     "assessment": "This course will include an assessment to evaluate participants’ understanding of the course material. The assessment format may vary and could include a written test, group discussions, or reflective exercises.",
-    "certification": "Upon successful completion of the course and passing the assessment, participants will receive a SALT (Speech and Language Therapy) Awareness Certificate."
+    "certification": "Upon successful completion of the course and passing the assessment, participants will receive a SALT (Speech and Language Therapy) Awareness Certificate.",
+
+    "courseDetails": [
+      {
+        "icon": <GiDuration></GiDuration>,
+        "title": "DURATION",
+        "description": "Dependent on the delivery method, this online Speech and Language Therapy training course takes between 1-2 hours to complete and gain your certificate."
+      },
+      {
+        "icon": <GiEntryDoor></GiEntryDoor>,
+        "title": "ENTRY & LEVEL",
+        "description": "There are no barriers to entry on this SALT training course. This is an awareness course, suitable for all."
+      },
+      {
+        "icon": <GrCertificate></GrCertificate>,
+        "title": "CERTIFICATION",
+        "description": "On completion of this online course, either download your Speech and Language Therapy certificate or access it later online."
+      },
+      {
+        "icon": <SiTicktick />,
+        "title": "ACCREDITATIONS",
+        "description": "Our online Speech and Language Therapy course is CPD accredited, meeting accepted Continuing Professional Development guidelines."
+      }
+    ]
+
+
   },
   {
     "id": "115",
@@ -9389,7 +9768,30 @@ const courses = [
     },
     "aim": "The aim of this course is to raise awareness of self-harm, reduce stigma, and equip participants with the knowledge and skills to respond appropriately to concerns about self-harm. It aims to create a more supportive and understanding environment for individuals who self-harm.",
     "assessment": "This course will include an assessment to evaluate participants’ understanding of the course material. The assessment format may vary and could include a written test, group discussions, or scenario-based exercises.",
-    "certification": "Upon successful completion of the course and passing the assessment, participants will receive a Self-Harm Awareness Certificate."
+    "certification": "Upon successful completion of the course and passing the assessment, participants will receive a Self-Harm Awareness Certificate.",
+    "courseDetails": [
+      {
+        "icon": <GiDuration></GiDuration>,
+        "title": "DURATION",
+        "description": "Dependent on the delivery method, this online Self-Harm training course takes between 1-2 hours to complete and gain your certificate."
+      },
+      {
+        "icon": <GiEntryDoor></GiEntryDoor>,
+        "title": "ENTRY & LEVEL",
+        "description": "There are no barriers to entry on this online Self-Harm Awareness training. This is an awareness course, suitable for all."
+      },
+      {
+        "icon": <GrCertificate></GrCertificate>,
+        "title": "CERTIFICATION",
+        "description": "On completion of this online course, either download your Self-Harm Awareness certificate or access it later online."
+      },
+      {
+        "icon": <SiTicktick />,
+        "title": "ACCREDITATIONS",
+        "description": "Our online Self-Harm course is CPD accredited and delivered by a Skills for Care endorsed training provider. It meets accepted Continuing Professional Development (CPD) guidelines."
+      }
+    ]
+
   },
   {
     "id": "116",
@@ -9465,7 +9867,30 @@ const courses = [
     },
     "aim": "The aim of this course is to raise awareness of sensory impairments, enhance participants’ understanding of the challenges faced by individuals with sensory impairments, and equip them with the skills and knowledge to create inclusive and supportive environments.",
     "assessment": "This course may include an assessment to evaluate participants’ understanding of the course material. The assessment format may vary and could include a written test, case studies, or a combination of both.",
-    "certification": "Upon successful completion of the course and passing the assessment, participants may receive a Sensory Impairment Awareness Certificate."
+    "certification": "Upon successful completion of the course and passing the assessment, participants may receive a Sensory Impairment Awareness Certificate.",
+    "courseDetails": [
+      {
+        "icon": <GiDuration></GiDuration>,
+        "title": "DURATION",
+        "description": "Dependent on the delivery method, this online Self-Harm training course takes between 1-2 hours to complete and gain your certificate."
+      },
+      {
+        "icon": <GiEntryDoor></GiEntryDoor>,
+        "title": "ENTRY & LEVEL",
+        "description": "There are no barriers to entry on this online Self-Harm Awareness training. This is an awareness course, suitable for all."
+      },
+      {
+        "icon": <GrCertificate></GrCertificate>,
+        "title": "CERTIFICATION",
+        "description": "On completion of this online course, either download your Self-Harm Awareness certificate or access it later online."
+      },
+      {
+        "icon": <SiTicktick />,
+        "title": "ACCREDITATIONS",
+        "description": "Our online Self-Harm course is CPD accredited and delivered by a Skills for Care endorsed training provider. It meets accepted Continuing Professional Development (CPD) guidelines."
+      }
+    ]
+
   },
   {
     "id": "117",
@@ -9530,7 +9955,30 @@ const courses = [
     },
     "aim": "The aim of this course is to raise awareness of the risks associated with slips, trips, and falls, equip employees with the knowledge and skills to identify and control these risks, and create a safer working environment for all.",
     "assessment": "This course will include an assessment to evaluate participants’ understanding of the course material. The assessment format may vary and could include a written test, practical exercises, or a combination of both.",
-    "certification": "Upon successful completion of the course and passing the assessment, participants will receive a Slips, Trips and Falls Awareness Certificate."
+    "certification": "Upon successful completion of the course and passing the assessment, participants will receive a Slips, Trips and Falls Awareness Certificate.",
+    "courseDetails": [
+      {
+        "icon": <GiDuration></GiDuration>,
+        "title": "DURATION",
+        "description": "Dependent on delivery method, this Sensory Impairment Administration training course takes between 1-2 hours to complete and gain your certificate."
+      },
+      {
+        "icon": <GiEntryDoor></GiEntryDoor>,
+        "title": "ENTRY & LEVEL",
+        "description": "There are no barriers to entry on this Sensory Impairment Awareness training online course. This is an awareness course, suitable for all."
+      },
+      {
+        "icon": <GrCertificate></GrCertificate>,
+        "title": "CERTIFICATION",
+        "description": "On completion of this Sensory Impairment Awareness training course, either download your certificate or access it at a later date online."
+      },
+      {
+        "icon": <SiTicktick />,
+        "title": "ACCREDITATIONS",
+        "description": "This Sensory Impairment Awareness training course is CPD accredited and Skills for Care endorsed. It meets accepted Continuing Professional Development (CPD) guidelines."
+      }
+    ]
+
   },
   {
     "id": "118",
@@ -9604,7 +10052,30 @@ const courses = [
     },
     "aim": "The aim of this course is to equip managers with the skills and knowledge to conduct effective and meaningful performance appraisals that drive employee engagement, motivation, and development.",
     "assessment": "This course will include an assessment to evaluate participants’ understanding of the course material. The assessment format may vary and could include a written test, case studies, role-play scenarios, or a combination of methods.",
-    "certification": "Upon successful completion of the course and passing the assessment, participants will receive a Staff Appraisal Skills Certificate."
+    "certification": "Upon successful completion of the course and passing the assessment, participants will receive a Staff Appraisal Skills Certificate.",
+    "courseDetails": [
+      {
+        "icon": <GiDuration></GiDuration>,
+        "title": "DURATION",
+        "description": "Dependent on the delivery method, this online Staff Appraisal training course takes between 1-2 hours to complete and gain your certificate."
+      },
+      {
+        "icon": <GiEntryDoor></GiEntryDoor>,
+        "title": "ENTRY & LEVEL",
+        "description": "There are no barriers to entry on this Appraisal Training and Staff Development course. This is an awareness course, suitable for all."
+      },
+      {
+        "icon": <GrCertificate></GrCertificate>,
+        "title": "CERTIFICATION",
+        "description": "On completion of this online course, either download your Staff Appraisal certificate or access it later online."
+      },
+      {
+        "icon": <SiTicktick />,
+        "title": "ACCREDITATIONS",
+        "description": "This online Staff Appraisal training course is CPD accredited. It meets accepted Continuing Professional Development (CPD) guidelines."
+      }
+    ]
+
   },
   {
     "id": "119",
@@ -9672,7 +10143,30 @@ const courses = [
     },
     "aim": "The aim of this course is to raise awareness of stress, equip participants with the knowledge and skills to recognize and manage stress effectively, and promote overall well-being.",
     "assessment": "This course will include an assessment to evaluate participants’ understanding of the course material. The assessment format may vary and could include a written test, quizzes, or short answer questions.",
-    "certification": "Upon successful completion of the course and passing the assessment, participants will receive a Stress Awareness Certificate."
+    "certification": "Upon successful completion of the course and passing the assessment, participants will receive a Stress Awareness Certificate.",
+    "courseDetails": [
+      {
+        "icon": <GiDuration></GiDuration>,
+        "title": "DURATION",
+        "description": "Depending on the delivery method, it takes between 1-2 hours to complete this Stress Awareness course and gain your certificate."
+      },
+      {
+        "icon": <GiEntryDoor></GiEntryDoor>,
+        "title": "ENTRY & LEVEL",
+        "description": "There are no barriers to entry on this Stress Awareness course. This is an awareness course, suitable for all."
+      },
+      {
+        "icon": <GrCertificate></GrCertificate>,
+        "title": "CERTIFICATION",
+        "description": "On completion of this Stress Awareness course, either download your certificate or access at a later date online."
+      },
+      {
+        "icon": <SiTicktick />,
+        "title": "ACCREDITATIONS",
+        "description": "This Stress Awareness training course is CPD accredited. It meets accepted Continuing Professional Development (CPD) guidelines."
+      }
+    ]
+
   },
   {
     "id": "£49.99",
@@ -9817,6 +10311,29 @@ const courses = [
     "aim": "The aim of this course is to raise awareness of the risks associated with substance misuse, promote healthy lifestyles, and equip participants with the knowledge and skills to make informed choices about their own substance use.",
     "assessment": "This course will include an assessment to evaluate participants’ understanding of the course material. The assessment format may vary and could include a written test, quizzes, or group discussions.",
     "certification": "Upon successful completion of the course and passing the assessment, participants will receive a Substance Misuse Awareness Certificate.",
+    "courseDetails": [
+      {
+        "icon": <GiDuration></GiDuration>,
+        "title": "DURATION",
+        "description": "Depending on the delivery method, it takes between 1-2 hours to complete this Substance Misuse Awareness training course and gain your certificate."
+      },
+      {
+        "icon": <GiEntryDoor></GiEntryDoor>,
+        "title": "ENTRY & LEVEL",
+        "description": "There are no barriers to entry on this Substance Misuse course. This is an awareness course, suitable for all."
+      },
+      {
+        "icon": <GrCertificate></GrCertificate>,
+        "title": "CERTIFICATION",
+        "description": "On completion of this Substance Misuse training course, either download your certificate or access it later online."
+      },
+      {
+        "icon": <SiTicktick />,
+        "title": "ACCREDITATIONS",
+        "description": "This Substance Misuse training course is CPD accredited. It meets accepted Continuing Professional Development (CPD) guidelines."
+      }
+    ]
+
   },
   {
     "id": "122",
@@ -9888,7 +10405,30 @@ const courses = [
     },
     "aim": "The aim of this course is to enhance participants’ knowledge and skills in the selection, use, and disposal of PPE, thereby minimizing the risk of infection transmission and promoting a safe and healthy work environment.",
     "assessment": "This course may include an assessment to evaluate participants’ understanding of the course material and their ability to demonstrate proper PPE use. The assessment format may vary and could include written tests, practical demonstrations, or a combination of both.",
-    "certification": "Upon successful completion of the course and passing the assessment, participants may receive a The Use of PPE Certificate."
+    "certification": "Upon successful completion of the course and passing the assessment, participants may receive a The Use of PPE Certificate.",
+    "courseDetails": [
+      {
+        "icon": <GiDuration></GiDuration>,
+        "title": "DURATION",
+        "description": "Dependent on the delivery method, this Use of PPE training takes between 1-2 hours to complete and gain your certificate."
+      },
+      {
+        "icon": <GiEntryDoor></GiEntryDoor>,
+        "title": "ENTRY & LEVEL",
+        "description": "There are no barriers to entry in this online PPE training. This is an awareness course, suitable for all."
+      },
+      {
+        "icon": <GrCertificate></GrCertificate>,
+        "title": "CERTIFICATION",
+        "description": "On completion of this PPE training online course, either download your certificate or access it later online."
+      },
+      {
+        "icon": <SiTicktick />,
+        "title": "ACCREDITATIONS",
+        "description": "This online Use of PPE training is CPD accredited and delivered by a Skills for Care Endorsed Provider. It meets accepted Continuing Professional Development (CPD) guidelines."
+      }
+    ]
+
   },
   {
     "id": "123",
@@ -9955,7 +10495,30 @@ const courses = [
     },
     "aim": "The aim of this course is to equip participants with the knowledge and skills to effectively manage their time, increase productivity, reduce stress, and achieve their personal and professional goals.",
     "assessment": "This course will include an assessment to evaluate participants’ understanding of the course material. The assessment format may vary and could include a written test, quizzes, or practical exercises (e.g., creating a personal time management plan).",
-    "certification": "Upon successful completion of the course and passing the assessment, participants will receive a Time Management Awareness Certificate."
+    "certification": "Upon successful completion of the course and passing the assessment, participants will receive a Time Management Awareness Certificate.",
+    "courseDetails": [
+      {
+        "icon": <GiDuration></GiDuration>,
+        "title": "DURATION",
+        "description": "Dependent on the delivery method, this online Time Management Skills training course takes between 1-2 hours to complete and gain your certificate."
+      },
+      {
+        "icon": <GiEntryDoor></GiEntryDoor>,
+        "title": "ENTRY & LEVEL",
+        "description": "There are no barriers to entry on this Time Management course. This is an awareness course, suitable for all."
+      },
+      {
+        "icon": <GrCertificate></GrCertificate>,
+        "title": "CERTIFICATION",
+        "description": "On completion of this online course, either download your Time Management Awareness certificate or access it later online."
+      },
+      {
+        "icon": <SiTicktick />,
+        "title": "ACCREDITATIONS",
+        "description": "This online Time Management Skills training course is CPD accredited. It meets accepted Continuing Professional Development (CPD) guidelines."
+      }
+    ]
+
   },
   {
     "id": "124",
@@ -10083,7 +10646,30 @@ const courses = [
     },
     "aim": "The aim of this course is to raise awareness of whistleblowing rights and responsibilities in Wales, equip employees with the knowledge and skills to understand and exercise their whistleblowing rights, and promote a culture of openness and transparency in the workplace.",
     "assessment": "This course will include an assessment to evaluate participants’ understanding of the course material. The assessment format may vary and could include a written test, case studies, or scenario-based exercises.",
-    "certification": "Upon successful completion of the course and passing the assessment, participants will receive a Whistleblowing – Wales Awareness Certificate."
+    "certification": "Upon successful completion of the course and passing the assessment, participants will receive a Whistleblowing – Wales Awareness Certificate.",
+    "courseDetails": [
+      {
+        "icon": <GiDuration></GiDuration>,
+        "title": "DURATION",
+        "description": "Dependent on the delivery method, this online Verification of Death training for nurses takes between 1-2 hours to complete and gain your certificate."
+      },
+      {
+        "icon": <GiEntryDoor></GiEntryDoor>,
+        "title": "ENTRY & LEVEL",
+        "description": "There are no barriers to entry on this Verification of Death training online course. This is an awareness course, suitable for all."
+      },
+      {
+        "icon": <GrCertificate></GrCertificate>,
+        "title": "CERTIFICATION",
+        "description": "On completion of this online course, either download your Verification of Death certificate or access it later online."
+      },
+      {
+        "icon": <SiTicktick />,
+        "title": "ACCREDITATIONS",
+        "description": "This Verification of Death online training course is CPD accredited. It meets accepted Continuing Professional Development (CPD) guidelines."
+      }
+    ]
+
   },
   {
     "id": "126",
@@ -10234,7 +10820,30 @@ const courses = [
     },
     "aim": "The aim of this course is to raise awareness of the risks associated with working at height, equip employees with the knowledge and skills to work safely at height, and prevent falls from height.",
     "assessment": "This course will include an assessment to evaluate participants’ understanding of the course material. The assessment format may vary and could include a written test, practical demonstrations, or a combination of both.",
-    "certification": "Upon successful completion of the course and passing the assessment, participants will receive a Working at Height Awareness Certificate."
+    "certification": "Upon successful completion of the course and passing the assessment, participants will receive a Working at Height Awareness Certificate.",
+    "courseDetails": [
+      {
+        "icon": <GiDuration></GiDuration>,
+        "title": "DURATION",
+        "description": "Depending on the delivery method, it takes between 1-2 hours to complete this Working at Height training course and gain your certificate."
+      },
+      {
+        "icon": <GiEntryDoor></GiEntryDoor>,
+        "title": "ENTRY & LEVEL",
+        "description": "There are no barriers to entry on this Working at Heights course. This is an awareness course, suitable for all."
+      },
+      {
+        "icon": <GrCertificate></GrCertificate>,
+        "title": "CERTIFICATION",
+        "description": "On completion of this online Working at Height training course, either download your certificate or access it later online."
+      },
+      {
+        "icon": <SiTicktick />,
+        "title": "ACCREDITATIONS",
+        "description": "This Working at Heights course is CPD accredited. It meets accepted Continuing Professional Development (CPD) guidelines."
+      }
+    ]
+
   },
   {
     "id": "128",
@@ -10315,7 +10924,30 @@ const courses = [
     },
     "aim": "The aim of this course is to enhance participants’ knowledge and understanding of workplace sexual harassment and equip them with the skills and confidence to provide person-centered care that meets the unique needs of individuals affected by it.",
     "assessment": "This course will include an assessment to evaluate participants’ understanding of the course material. The assessment format may vary and could include a written test, practical demonstration, or a combination of both.",
-    "certification": "Upon successful completion of the course and passing the assessment, participants will receive a Workplace Sexual Harassment Awareness Certificate."
+    "certification": "Upon successful completion of the course and passing the assessment, participants will receive a Workplace Sexual Harassment Awareness Certificate.",
+    "courseDetails": [
+      {
+        "icon": <GiDuration></GiDuration>,
+        "title": "DURATION",
+        "description": "Depending on the delivery method, this online Sexual Harassment at Work course takes between 1-2 hours to complete and gain your certificate."
+      },
+      {
+        "icon": <GiEntryDoor></GiEntryDoor>,
+        "title": "ENTRY & LEVEL",
+        "description": "There are no barriers to entry on this Workplace Sexual Harassment training course. This is an awareness course, suitable for all."
+      },
+      {
+        "icon": <GrCertificate></GrCertificate>,
+        "title": "CERTIFICATION",
+        "description": "On completion of this online course, either download your Workplace Sexual Harassment awareness certificate or access it later online."
+      },
+      {
+        "icon": <SiTicktick />,
+        "title": "ACCREDITATIONS",
+        "description": "Our online Workplace Sexual Harassment awareness training course is CPD accredited, meeting accepted Continuing Professional Development guidelines."
+      }
+    ]
+
   },
 
 
