@@ -972,7 +972,7 @@ const courses = [
   {
     "id": "11",
     "title": "Bribery Act Awareness Course",
-    "title": "bribery-act-awareness-course",
+    "sulg": "bribery-act-awareness-course",
 
     "category": "Generic",
     "price": "£49.99",
