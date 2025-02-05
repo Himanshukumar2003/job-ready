@@ -8,7 +8,7 @@ import { FaBullseye } from "react-icons/fa";
 import { GrCertificate } from "react-icons/gr";
 import { FaCheckCircle } from "react-icons/fa";
 
-import { logo } from "../../assets/header-logo.webp"
+import { logo } from "../../assets/header-logo.jpg"
 import ContactForm from "./ContantForm";
 function CourseDetails(params) {
     const { title } = useParams();
