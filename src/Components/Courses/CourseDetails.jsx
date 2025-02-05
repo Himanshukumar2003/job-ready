@@ -12,8 +12,8 @@ import Logo from "../../assets/header-logo.jpg";
 import ContactForm from "./ContantForm";
 function CourseDetails(params) {
     const { title } = useParams();
-    const course = courses.find((c) => c.title === decodeURIComponent(title));
-
+    const course = courses.find((c) => c.title.replaceAll(" ", "-") === title);
+    console.log(courses.map(c => c.title.replaceAll(" ", "-")))
     if (!course) {
         return <h2 className="text-center text-red-600 text-2xl">Course Not Found</h2>;
     }

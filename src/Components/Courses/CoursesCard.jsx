@@ -89,7 +89,7 @@ const CoursesCard = () => {
                                                 <span className='-font--theme-Extrabold'>{val.price}</span>
                                             </div>
                                             {val.title && val.img && (
-                                                <Link to={`/CourseDetails/${val.title}`} className='darkbtn bottom-2 absolute' >Learn More</Link>
+                                                <Link to={`/CourseDetails/${val.title.replaceAll(" ", "-")}`} className='darkbtn bottom-2 absolute' >Learn More</Link>
                                             )}
                                         </div>
                                     </div>
