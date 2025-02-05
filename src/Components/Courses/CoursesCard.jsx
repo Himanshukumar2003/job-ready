@@ -63,7 +63,7 @@ const CoursesCard = () => {
                         {filteredCourses.length > 0 ? (
                             filteredCourses.map((val) => (
                                 <div key={val.id} className="col-span-12 md:col-span-4 lg:col-span-3 mtb10 md:mtb-0">
-                                    <div className='border border-solid border-[#bdbdbd] overflow-hidden -rounded--theme-normalradius ' style={{ height: "100%" }}>
+                                    <div className='border border-solid border-[#bdbdbd] overflow-hidden -rounded--theme-normalradius relative ' style={{ minHeight: "400px" }}>
                                         <div className='h-40'>
                                             <img className='-rounded-tr--theme-normalradius -rounded-tl--theme-normalradius h-full w-full object-cover' src={val.img} alt="" />
                                         </div>
@@ -89,7 +89,7 @@ const CoursesCard = () => {
                                                 <span className='-font--theme-Extrabold'>{val.price}</span>
                                             </div>
                                             {val.title && val.img && (
-                                                <Link to={`/CourseDetails/${val.title}`} className='darkbtn'>Learn More</Link>
+                                                <Link to={`/CourseDetails/${val.title}`} className='darkbtn bottom-2 absolute' >Learn More</Link>
                                             )}
                                         </div>
                                     </div>

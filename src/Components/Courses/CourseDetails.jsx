@@ -7,6 +7,8 @@ import { AiOutlineAim } from "react-icons/ai";
 import { FaBullseye } from "react-icons/fa";
 import { GrCertificate } from "react-icons/gr";
 import { FaCheckCircle } from "react-icons/fa";
+
+import { logo } from "../../assets/SFC-CPD-white-header-logo.webp"
 import ContactForm from "./ContantForm";
 function CourseDetails(params) {
     const { title } = useParams();
@@ -28,15 +30,15 @@ function CourseDetails(params) {
                                 <h2 className='-text--theme-sm md:-text--theme-2xl capitalize -font--theme-Extrabold  -text--theme-light'>{course.title}</h2>
                                 <p className='-text--theme-light'>{course.description}</p>
                                 <div className="flex gap-4 mb-4">
-                                    <p className="mt-4  text-white">{course.price}</p>
-                                    <p className="mt-4 text-white flex items-center gap-2">
+                                    <p className="mt-4  text-white text-lg font-semibold">{course.price}</p>
+                                    <p className="mt-4 text-white flex  text-lg items-center gap-2 font-semibold">
                                         <FaTags />
                                         {Array.isArray(course.category) ? course.category.join(', ') : course.category}
                                     </p>
 
                                 </div>
                                 <div>
-                                    <img src="/src/assets/SFC-CPD-white-header-logo.webp" className="h-20"></img>
+                                    <img src={logo} className="h-20"></img>
                                 </div>
                             </div>
                         </div>
