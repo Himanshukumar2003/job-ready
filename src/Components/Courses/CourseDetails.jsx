@@ -8,7 +8,7 @@ import { FaBullseye } from "react-icons/fa";
 import { GrCertificate } from "react-icons/gr";
 import { FaCheckCircle } from "react-icons/fa";
 
-import { logo } from "../../assets/header-logo.jpg";
+// import { logo } from "./assets/SFC-CPD-white-header-logo.webp"
 import ContactForm from "./ContantForm";
 function CourseDetails(params) {
     const { title } = useParams();
@@ -38,7 +38,7 @@ function CourseDetails(params) {
 
                                 </div>
                                 <div>
-                                    <img src={logo} className="h-20"></img>
+                                    <img src="/src/assets/header-logo.JPG" className="h-20"></img>
                                 </div>
                             </div>
                         </div>
