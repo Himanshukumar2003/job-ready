@@ -967,7 +967,30 @@ const courses = [
     },
     "aim": "The aim of this course is to enhance participants’ knowledge and understanding of borderline personality disorder and equip them with the skills and confidence to provide effective and compassionate care to individuals living with this condition.",
     "assessment": "This course will include an assessment to evaluate participants’ understanding of the course material. The assessment format may vary and could include a written test, case studies, or a combination of both.",
-    "certification": "Upon successful completion of the course and passing the assessment, participants will receive a Borderline Personality Disorder Awareness Certificate."
+    "certification": "Upon successful completion of the course and passing the assessment, participants will receive a Borderline Personality Disorder Awareness Certificate.",
+    "courseDetails": [
+      {
+        "icon": <GiDuration></GiDuration>,
+        "title": "DURATION",
+        "description": "Dependent on the delivery method, this online Borderline Personality Disorder training course takes between 1-2 hours to complete and gain your certificate."
+      },
+      {
+        "icon": <GiEntryDoor></GiEntryDoor>,
+        "title": "ENTRY & LEVEL",
+        "description": "There are no barriers to entry on this online Borderline Personality Disorder training for employees. This is an awareness course, suitable for all."
+      },
+      {
+        "icon": <GrCertificate></GrCertificate>,
+        "title": "CERTIFICATION",
+        "description": "On completion of this online course, either download your Borderline Personality Disorder certificate or access it later online."
+      },
+      {
+        "icon": <SiTicktick />,
+        "title": "ACCREDITATIONS",
+        "description": "This online Borderline Personality Disorder course is CPD accredited and meets Wales Legislation requirements."
+      }
+    ]
+
   },
   {
     "id": "11",
@@ -1897,7 +1920,30 @@ const courses = [
     },
     "aim": "The aim of this course is to equip participants with the knowledge and skills to effectively manage and resolve conflicts, improve communication, and build stronger, more harmonious relationships.",
     "assessment": "This course will include an assessment to evaluate participants’ understanding of the course material. The assessment format may vary and could include a written test, role-playing exercises, or group discussions.",
-    "certification": "Upon successful completion of the course and passing the assessment, participants will receive a Conflict Resolution Certificate."
+    "certification": "Upon successful completion of the course and passing the assessment, participants will receive a Conflict Resolution Certificate.",
+    "courseDetails": [
+      {
+        "icon": <GiDuration></GiDuration>,
+        "title": "DURATION",
+        "description": "Dependent on the delivery method, this online Concussion training course takes between 1-2 hours to complete and gain your certificate."
+      },
+      {
+        "icon": <GiEntryDoor></GiEntryDoor>,
+        "title": "ENTRY & LEVEL",
+        "description": "There are no barriers to entry on this Concussion Awareness training course. This is an awareness course, suitable for all."
+      },
+      {
+        "icon": <GrCertificate></GrCertificate>,
+        "title": "CERTIFICATION",
+        "description": "On completion of this online course, either download your Concussion certificate or access it later online."
+      },
+      {
+        "icon": <SiTicktick />,
+        "title": "ACCREDITATIONS",
+        "description": "Our online Concussion training course is CPD accredited. It meets accepted Continuing Professional Development (CPD) guidelines."
+      }
+    ]
+
   },
   {
     "id": "22",
@@ -2336,7 +2382,30 @@ const courses = [
     },
     "aim": "The aim of this course is to raise awareness of the risks associated with hazardous substances and the practical steps that can be taken to manage the risk, so that you can understand more about your legal responsibilities and how to carry out your job role safely.",
     "assessment": "This course includes an assessment to evaluate participants’ understanding of the course material.",
-    "certification": "Upon successful completion, participants will receive a COSHH Awareness Certificate."
+    "certification": "Upon successful completion, participants will receive a COSHH Awareness Certificate.",
+    "courseDetails": [
+      {
+        "icon": <GiDuration></GiDuration>,
+        "title": "DURATION",
+        "description": "Dependent on delivery method, this COSHH training course takes between 1-2 hours to complete and gain your certificate."
+      },
+      {
+        "icon": <GiEntryDoor></GiEntryDoor>,
+        "title": "ENTRY & LEVEL",
+        "description": "There are no barriers to entry on this online COSHH training course. This is an awareness course, suitable for all."
+      },
+      {
+        "icon": <GrCertificate></GrCertificate>,
+        "title": "CERTIFICATION",
+        "description": "On completion of this course, learners will achieve a COSHH certificate to either download or access later online."
+      },
+      {
+        "icon": <SiTicktick />,
+        "title": "ACCREDITATIONS",
+        "description": "This online COSHH course is CPD accredited and delivered by a Skills for Care Endorsed Provider. It meets accepted Continuing Professional Development (CPD) guidelines."
+      }
+    ]
+
   },
   {
     "id": "28",
