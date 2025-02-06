@@ -2546,7 +2546,30 @@ const courses = [
     },
     "aim": "The aim of this course is to raise awareness of county lines and knife crime, equip participants with the knowledge and skills to recognize potential indicators and respond appropriately, and promote a safer and more supportive environment for young people.",
     "assessment": "This course will include an assessment to evaluate participants’ understanding of the course material. The assessment format may vary and could include a written test, group discussions, or scenario-based exercises.",
-    "certification": "Upon successful completion of the course and passing the assessment, participants will receive a County Lines and Knife Crime Awareness Certificate."
+    "certification": "Upon successful completion of the course and passing the assessment, participants will receive a County Lines and Knife Crime Awareness Certificate.",
+    "courseDetails": [
+      {
+        "icon": <GiDuration></GiDuration>,
+        "title": "DURATION",
+        "description": "Depending on the delivery method, this online County Lines and Knife Crime course takes between 1-2 hours to complete and gain your certificate."
+      },
+      {
+        "icon": <GiEntryDoor></GiEntryDoor>,
+        "title": "ENTRY & LEVEL",
+        "description": "There are no barriers to entry on this online County Lines and Knife Crime training. This is an awareness course, suitable for all."
+      },
+      {
+        "icon": <GrCertificate></GrCertificate>,
+        "title": "CERTIFICATION",
+        "description": "On completion of this County Lines and Knife Crime online course, either download your certificate or access it later online."
+      },
+      {
+        "icon": <SiTicktick />,
+        "title": "ACCREDITATIONS",
+        "description": "This online County Lines and Knife Crime course is CPD accredited. It meets accepted Continuing Professional Development (CPD) guidelines."
+      }
+    ]
+
   },
   {
     "id": "30",
@@ -2624,7 +2647,30 @@ const courses = [
     },
     "aim": "The aim of this course is to raise awareness of the Criminal Finances Act 2017, equip participants with the knowledge and skills to recognize and respond to potential risks, and promote compliance with the Act within their organization.",
     "assessment": "This course will include an assessment to evaluate participants’ understanding of the course material. The assessment format may vary and could include a written test, case studies, or scenario-based exercises.",
-    "certification": "Upon successful completion of the course and passing the assessment, participants will receive a Criminal Finances Act Awareness Certificate."
+    "certification": "Upon successful completion of the course and passing the assessment, participants will receive a Criminal Finances Act Awareness Certificate.",
+    "courseDetails": [
+      {
+        "icon": <GiDuration></GiDuration>,
+        "title": "DURATION",
+        "description": "Dependent on the delivery method, this online Criminal Finance Act training takes between 1-2 hours to complete and gain your certificate."
+      },
+      {
+        "icon": <GiEntryDoor></GiEntryDoor>,
+        "title": "ENTRY & LEVEL",
+        "description": "There are no barriers to entry on this online Criminal Finance Act training course. This is an awareness course, suitable for all."
+      },
+      {
+        "icon": <GrCertificate></GrCertificate>,
+        "title": "CERTIFICATION",
+        "description": "On completion of this Criminal Finance Act course, either download your certificate or access it at a later date online."
+      },
+      {
+        "icon": <SiTicktick />,
+        "title": "ACCREDITATIONS",
+        "description": "This Criminal Finance Act online course is CPD accredited. It meets accepted Continuing Professional Development (CPD) guidelines."
+      }
+    ]
+
   },
   {
     "id": "31",
@@ -2772,7 +2818,30 @@ const courses = [
     },
     "aim": "The aim of this course is to raise awareness of cyber threats, equip participants with the knowledge and skills to protect themselves and their information online, and promote good cyber hygiene practices.",
     "assessment": "This course will include an assessment to evaluate participants’ understanding of the course material. The assessment format may vary and could include a written test, quizzes, or scenario-based exercises.",
-    "certification": "Upon successful completion of the course and passing the assessment, participants will receive a Cyber Security Awareness Certificate."
+    "certification": "Upon successful completion of the course and passing the assessment, participants will receive a Cyber Security Awareness Certificate.",
+    "courseDetails": [
+      {
+        "icon": <GiDuration></GiDuration>,
+        "title": "DURATION",
+        "description": "Dependent on the delivery method, this Cyber Security Awareness for employees takes between 1-2 hours to complete and gain your certificate."
+      },
+      {
+        "icon": <GiEntryDoor></GiEntryDoor>,
+        "title": "ENTRY & LEVEL",
+        "description": "There are no barriers to entry on this staff Cyber Security Awareness training course. This is an awareness course, suitable for all."
+      },
+      {
+        "icon": <GrCertificate></GrCertificate>,
+        "title": "CERTIFICATION",
+        "description": "On completion of this Cyber Security Awareness course, either download your certificate or access it later online."
+      },
+      {
+        "icon": <SiTicktick />,
+        "title": "ACCREDITATIONS",
+        "description": "This online Cyber Security Awareness e-learning course is CPD accredited. It meets accepted Continuing Professional Development (CPD) guidelines."
+      }
+    ]
+
   },
 
   {
@@ -5862,7 +5931,30 @@ const courses = [
     },
     "aim": "The aim of this course is to raise awareness of online safety risks, equip participants with the knowledge and skills to navigate the online world safely and securely, and promote responsible online behavior.",
     "assessment": "This course will include an assessment to evaluate participants’ understanding of the course material. The assessment format may vary and could include a written test, quizzes, or scenario-based exercises.",
-    "certification": "Upon successful completion of the course and passing the assessment, participants will receive an Internet Safety Awareness Certificate."
+    "certification": "Upon successful completion of the course and passing the assessment, participants will receive an Internet Safety Awareness Certificate.",
+    "courseDetails": [
+      {
+        "icon": <GiDuration></GiDuration>,
+        "title": "DURATION",
+        "description": "Dependent on the delivery method, this online Internet Safety training course takes between 1-2 hours to complete and gain your certificate."
+      },
+      {
+        "icon": <GiEntryDoor></GiEntryDoor>,
+        "title": "ENTRY & LEVEL",
+        "description": "There are no barriers to entry on this online Internet Safety course. This is an awareness course, suitable for all."
+      },
+      {
+        "icon": <GrCertificate></GrCertificate>,
+        "title": "CERTIFICATION",
+        "description": "On completion of this online course, either download your Internet Safety Awareness certificate or access it later online."
+      },
+      {
+        "icon": <SiTicktick />,
+        "title": "ACCREDITATIONS",
+        "description": "This online Internet Safety training course is CPD accredited and is delivered by a Skills for Care endorsed provider. It meets accepted Continuing Professional Development (CPD) guidelines."
+      }
+    ]
+
   },
   {
     "id": "67",
@@ -5921,7 +6013,30 @@ const courses = [
     },
     "aim": "The aim of this course is to equip participants with the skills and confidence to excel in job interviews, increase their chances of landing their desired role, and advance their career goals.",
     "assessment": "This course will include an assessment to evaluate participants’ understanding of the course material. The assessment format may vary and could include a written test, role-play scenarios, or mock interviews.",
-    "certification": "Upon successful completion of the course and passing the assessment, participants will receive an Interview Skills Certificate."
+    "certification": "Upon successful completion of the course and passing the assessment, participants will receive an Interview Skills Certificate.",
+    "courseDetails": [
+      {
+        "icon": <GiDuration></GiDuration>,
+        "title": "DURATION",
+        "description": "Dependent on the delivery method, this online Interview Skills training course takes between 1-2 hours to complete and gain your certificate."
+      },
+      {
+        "icon": <GiEntryDoor></GiEntryDoor>,
+        "title": "ENTRY & LEVEL",
+        "description": "There are no barriers to entry on this online Interview Skills training for managers. This is an awareness course, suitable for all."
+      },
+      {
+        "icon": <GrCertificate></GrCertificate>,
+        "title": "CERTIFICATION",
+        "description": "On completion of this online course, either download your Interview Skills certificate or access it later online."
+      },
+      {
+        "icon": <SiTicktick />,
+        "title": "ACCREDITATIONS",
+        "description": "This online Interview Skills training course is CPD accredited. It meets accepted Continuing Professional Development (CPD) guidelines."
+      }
+    ]
+
   },
 
   {
@@ -6122,7 +6237,30 @@ const courses = [
     },
     "aim": "The aim of this course is to raise awareness of the risks associated with Legionella bacteria, equip participants with the knowledge and skills to manage Legionella risks effectively, and prevent the occurrence of Legionnaires’ disease.",
     "assessment": "This course will include an assessment to evaluate participants’ understanding of the course material. The assessment format may vary and could include a written test or a combination of written and practical exercises.",
-    "certification": "Upon successful completion of the course and passing the assessment, participants will receive a Legionella Awareness Certificate."
+    "certification": "Upon successful completion of the course and passing the assessment, participants will receive a Legionella Awareness Certificate.",
+    "courseDetails": [
+      {
+        "icon": "<GiDuration></GiDuration>",
+        "title": "DURATION",
+        "description": "Dependent on the delivery method, this online Legionella training course takes between 1-2 hours to complete and gain your certificate."
+      },
+      {
+        "icon": "<GiEntryDoor></GiEntryDoor>",
+        "title": "ENTRY & LEVEL",
+        "description": "There are no barriers to entry on this Legionella Awareness training. This is an awareness course, suitable for all."
+      },
+      {
+        "icon": "<GrCertificate></GrCertificate>",
+        "title": "CERTIFICATION",
+        "description": "On completion of this online course, either download your Legionella Awareness certificate or access it later online."
+      },
+      {
+        "icon": "<SiTicktick />",
+        "title": "ACCREDITATIONS",
+        "description": "This online Legionella Awareness course is CPD accredited. It meets accepted Continuing Professional Development (CPD) guidelines."
+      }
+    ]
+
   },
 
 
