@@ -62,7 +62,7 @@ const CoursesCard = () => {
                     <div className="grid grid-cols-12 gap-x-0 md:gap-5 mt-10">
                         {filteredCourses.length > 0 ? (
                             filteredCourses.map((val) => (
-                                <div key={val.id} className="col-span-12 md:col-span-4 lg:col-span-3 mtb10 md:mtb-0">
+                                <div key={val.id} className="col-span-12 md:col-span-6 lg:col-span-3 mtb10 md:mtb-0">
                                     <div className='border border-solid border-[#bdbdbd] overflow-hidden -rounded--theme-normalradius relative ' style={{ minHeight: "420px" }}>
                                         <div className='h-40'>
                                             <img className='-rounded-tr--theme-normalradius -rounded-tl--theme-normalradius h-full w-full object-cover' src={val.img} alt="" />
