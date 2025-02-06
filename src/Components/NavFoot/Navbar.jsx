@@ -9,37 +9,37 @@ const Navbar = () => {
         {
             id: 1,
             Menu: "Home",
-            MenuLink:"/"
+            MenuLink: "/"
         },
         {
             id: 2,
             Menu: "All Courses",
-            MenuLink:"/courses"
+            MenuLink: "/courses"
         },
         {
             id: 3,
             Menu: "How it Works",
-            MenuLink:""
+            MenuLink: ""
         },
         {
             id: 4,
             Menu: "About",
-            MenuLink:"/about"
+            MenuLink: "/about"
         },
         {
             id: 5,
             Menu: "Portfolio",
-            MenuLink:""
+            MenuLink: ""
         },
         {
             id: 6,
             Menu: "Gallery",
-            MenuLink:""
+            MenuLink: ""
         },
         {
             id: 7,
             Menu: "Contact",
-            MenuLink:""
+            MenuLink: ""
         }
     ]
 
@@ -49,11 +49,11 @@ const Navbar = () => {
                 <div className='flex items-center justify-between'>
                     <div><img className='w-40' src={assests.logo} alt="" /></div>
                     <ul className='hidden xl:flex items-center gap-x-5'>
-                        {NavbarUl.map((val)=>(
-                            <li key={val.id}><a className='-font--theme-light -text--[19px] -text--theme-text-primary' onClick={()=>navigate(`${val.MenuLink}`)}>{val.Menu}</a></li>
+                        {NavbarUl.map((val) => (
+                            <li key={val.id}><a className='-font--theme-light -text--[19px] -text--theme-text-primary cursor-pointer' onClick={() => navigate(`${val.MenuLink}`)}>{val.Menu}</a></li>
                         ))}
                     </ul>
-                    <div className='block lg:hidden'><CgMenuRight className='-text--theme-sm -text--theme-text-primary'/></div>
+                    <div className='block lg:hidden'><CgMenuRight className='-text--theme-sm -text--theme-text-primary' /></div>
                 </div>
             </div>
         </div>
